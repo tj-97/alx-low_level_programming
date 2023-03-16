@@ -1,2 +1,2 @@
 #!/bin/bash
-export $CFILE="cfile" | cpp $cfile main.c
+export $CFILE=main.c; ./0-preprocesor
