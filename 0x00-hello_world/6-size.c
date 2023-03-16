@@ -11,5 +11,6 @@ int main(void)
 	printf("The size of a long int: %ld byte(s)\n", sizeof(long));
 	printf("The size of a long long int: %lu byte(s)\n", sizeof(long long));
 	printf("The size of a float: %lu byte(s)", sizeof(float));
+	fprintf(stderr, "ALX");
 	return (0);
 }
