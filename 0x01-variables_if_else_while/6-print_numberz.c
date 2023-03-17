@@ -10,7 +10,10 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		putchar ('0' + n); /* the argument to putchar is the ascii code of the char being printed */
+		putchar ('0' + n); 
+		/* the argument to putchar is the 
+		 * ascii code of the char being printed 
+		 * */
 	}
 	putchar ('\n');
 	return (0);
