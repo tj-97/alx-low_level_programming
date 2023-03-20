@@ -59,3 +59,25 @@ int print_alphabet_x10()
 		_putchar('\n');
 	}
 }
+
+/**
+ * int _isLower (int c)- checks if character is lowercase
+ *
+ * @c - character to check
+ *
+ * Return: On success 1
+ * Return: On failure 0
+ */
+int _islower(int c)
+{
+	int islower(int c);
+	
+	if (islower(c))
+	{
+		return (1);
+	} else
+	{
+		return (0);
+	}
+}
+
