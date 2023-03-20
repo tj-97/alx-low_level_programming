@@ -1,5 +1,5 @@
-#include <unistd.h>
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -13,71 +13,12 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 
-
-/** printchar - write the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1
+/**
+ * printchar -print c to stdout
+ * @c - the character to print
+ * return on success 1
  */
 int printchar (char* c)
 {
-	printf("%s\n", c);
+	printf ("%s\n", c);
 }
-
-/**
- * print_alphabet - prints alphabet to stdout
- *
- * @c - character to print
- *
- * Return: On success 1
- */
-int print_alphabet()
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar (c);
-	}
-	_putchar ('\n');
-}
-
-/**
- * print_alphabet_x10 - prints alphabet 10x
- *
- * @c - character to print
- *
- * Return: On success 1
- */
-int print_alphabet_x10()
-{
-	int a;
-
-	for (a = 1; a <= 10; a++)
-	{
-		print_alphabet();
-		_putchar('\n');
-	}
-}
-
-/**
- * int _isLower (int c)- checks if character is lowercase
- *
- * @c - character to check
- *
- * Return: On success 1
- * Return: On failure 0
- */
-int _islower(int c)
-{
-	int islower(int c);
-	
-	if (islower(c))
-	{
-		return (1);
-	} else
-	{
-		return (0);
-	}
-}
-
