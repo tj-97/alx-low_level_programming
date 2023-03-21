@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - entry point
  * print_alphabet - increments c from 'a' to 'z'
  * and prints c followed by newline
- * return: Always 0 (Success)
+ * 
+ * c - character to be printed
+ * 
  */
 void print_alphabet(void)
 {
