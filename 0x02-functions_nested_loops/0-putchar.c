@@ -3,7 +3,7 @@
  * main - entry point
  * Return: On success 1.
  */
-int main (void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
