@@ -3,24 +3,38 @@
 /**
  * print_to_98 - prints all natural numbers
  * from n to 98
- * @n: number passed to function
+ * @n: number to print from
  */
 void print_to_98(int n)
 {
-	int a;
+	int a, b;
 
-	if (a = n; a <= 98; a++)
+	if (n <= 98)
 	{
-		_putchar (a + '0');
-		_putchar (',');
-		_putchar (' ');
+		for (a = n; a <= 98; a++)
+		{
+			if (a != 98)
+			{
+				printf ("%d,", a);
+			}
+			else if (a == 98)
+			{
+				printf ("%d\n", a);
+			}
+		}
 	}
-
-	if (a = n; a > 98 && a != 98; a--)
+	else if (n >= 98)
 	{
-		_putchar (a + '0');
-		_putchar (',');
-		_putchar (' ');
+		for (b = n; b >= 98; b--)
+		{
+			if (b != 98)
+			{
+				printf ("%d,", b);
+			}
+			else if (b == 98)
+			{
+				printf ("%d\n", b);
+			}
+		}
 	}
-	_putchar ('\n');
 }
