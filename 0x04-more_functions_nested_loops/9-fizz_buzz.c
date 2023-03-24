@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers 1-100,
- * for multiples of 3 print "Fizz",
- * for multiples of 5 print "Buzz"
- * for multiples of 3 and 5 print "FizzBuzz"
+ * main - prints numbers 1-100, followed by a new line
+ * for multiples of 3 prints "Fizz"
+ * for multiples of 5 prints "Buzz"
+ * for multiples of 3 and 5 prints "FizzBuzz"
  * Return: Always 0 (Success)
  */
 int main(void)
