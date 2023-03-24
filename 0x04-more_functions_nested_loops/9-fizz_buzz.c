@@ -26,8 +26,14 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else
+		else if (n == 1)
+		{
 			printf("%d ", n);
+		}
+		else
+		{
+			printf ("%d ", n);
+		}
 	}
 	printf("\n");
 	return (0);
