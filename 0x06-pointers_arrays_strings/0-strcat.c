@@ -9,10 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char concat[100];
+	strcat(dest, src);
 
-	strcpy(concat, dest);
-	strcpy(concat, src);
-	
 	return (dest);
 }
