@@ -1,12 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * cap_string - capitalizes all words of a string
  * @ch: character to capitalize
  * Return: capital character
  */
-
 char *cap_string(char *ch)
 {
 	int i;
@@ -21,25 +19,7 @@ char *cap_string(char *ch)
 				continue;
 			}
 		}
-		if (ch[i] == ' ')
-		{
-			++i;
-			if (ch[i] >= 'a' && ch[i] <= 'z')
-			{
-				ch[i] = ch[i] - 32;
-				continue;
-			}
-		}
-		if (ch[i] == '.')
-		{
-			++i;
-			if (ch[i] >= 'a' && ch[i] <= 'z')
-			{
-				ch[i] = ch[i] - 32;
-				continue;
-			}
-		}
-		if (ch[i] == '	')
+		if (ch[i] == ' ' || ch[i] == '	' || ch[i] == '.')
 		{
 			++i;
 			if (ch[i] >= 'a' && ch[i] <= 'z')
@@ -58,6 +38,5 @@ char *cap_string(char *ch)
 			}
 		}
 	}
-
 	return (ch);
 }
