@@ -28,7 +28,7 @@ char *cap_string(char *ch)
 				continue;
 			}
 		}
-		if (ch[i] == '\n')
+		if (ch[i] == '\n' || ch[i] == '6' || ch[i] == '-')
 		{
 			++i;
 			if (ch[i] >= 'a' && ch[i] <= 'z')
